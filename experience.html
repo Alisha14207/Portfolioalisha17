@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width" intialscale="0.1">
+ <title>about</title>
+ <style> 
+  nav{
+   background-color:Lavender;
+   padding:10px;
+   text-align:right;
+  }
+  body{
+   background-image:cover;
+   background-image: linear-gradient(360deg,Violet,Pink,LightPink,PeachPuff,Plum,LightSkyBlue,Aquamarine,Turquoise,Cyan,Lavender);
+   background-repeat: no-repeat;
+   height:100%;
+   animation-name: anime;
+   animation-duration: 10s;
+   animation: anime 1s ease-in-out;
+   animation-iteration-count: 1000;
+  }
+  
+  @keyframes anime {
+    from { background-image: linear-gradient(360deg,Violet,Pink,LightPink,PeachPuff,Plum,LightSkyBlue,Aquamarine,Turquoise,Cyan,Lavender);}
+    to { background-image: linear-gradient(180deg,Violet,Pink,LightPink,PeachPuff,Plum,LightSkyBlue,Aquamarine,Turquoise,Cyan,Lavender);}
+  }
+  h2{
+   font-family:'Imprint MT Shadow';
+   color:black;
+   text-align:center;
+   font-size:150%;
+  }
+  p{
+  text-align:center;
+  font-size:150%; 
+ font-family:'Imprint MT Shadow';
+ line-height:40px;
+ }
+ 
+ </style>
+ <!--
+ <script>
+  function change()
+  {
+  if(this.id=="image1")
+  {    
+   document.getElementById("p1").style.color="white";
+   document.body.style.backgroundColor= "black";
+   document.getElementById("image1").src="moon.png";
+  }
+  }
+ </script>-->
+</head>
+<body>
+<nav>
+  <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="education.html">EDUCATION</a> | <a href="skills.html">SKILLS</a> | <a href="experience.html">EXPERIENCE</a>
+ </nav>
+<h2>Trekking is my passion..</h2>
+<div style="float:left; width:350px;">
+<img src="images/pict1.jpg" width="300px" border="2px">
+</div>
+<div style="width:550px;float:left; height:350px;">
+<p>
+ Lohagad fort<br>
+ Naneghat<br>
+ Shivneri Fort<br>
+ Anjineri<br>
+ Bramhagiri<br>
+ Lenyadri Caves<br>
+ <br>
+</p>
+</div>
+<div style="float:right;">
+  <img src="images/pict2.jpg" width="300px"border="2px">
+</div>
+<div style="width:100%;">
+<img src="images/pict3.jpg" width="300px" border="2px" style="margin:5px;">
+<img src="images/pict4.jpg" width="300px" style="float:right; margin:5px;" border="2px">
+</div>
+ </body>
+</html>
